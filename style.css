@@ -312,3 +312,121 @@ section.home-section{
   .print-alert-icon2{
       display: inline-block;
   }
+.people-return{
+    padding-top:64px;
+    padding-left: 78px; 
+    margin-bottom: 18px;
+}
+.prople-return-btn{
+    display: block;
+    padding-left: 60px;
+    background: url("./image/last.png") left center no-repeat;
+    padding-top:10px;
+    padding-bottom:10px;
+    font-size: 25px;
+    color: #3a3a3a;
+    text-decoration: none;
+}
+.people-body{
+    /* width: 1113px;
+    margin: 0 auto; */
+}
+.people-item{
+    width: 200px;
+    height: 240px;
+    border: 1px solid #7a858b;
+    border-radius: 5px;
+    float: left;
+    padding: 25px 0;
+    text-align: center;
+    margin-right: 100px;
+    margin-bottom: 60px;
+    background-color: #eff0f0;
+}
+.people-item:nth-child(4n){
+    margin-right: 0;
+}
+.people-img{
+    width: 120px;
+    height: 120px;
+    border-radius: 1000px;
+    background-color: #7a858b;
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.people-woman{
+    background-color: #f7f2f4;
+    border: 1px solid #c7a7ad;
+}
+.people-woman .people-img{
+    background-color: #c7a7ad;
+}
+.people-item-disable{
+    background-color: #fcfdfd;
+    border: 1px solid #e2e4e5;
+}
+.people-item-disable .people-name{
+    color: #cacaca;
+}
+.people-item-disable .people-info{
+    color: #ddd;
+}
+.people-item-disable .people-img{
+    background-color: #e3e5e6;
+}
+
+
+.people-woman-disable{
+    background-color: #fefdfd;
+    border: 1px solid #f3edee;
+}
+.people-woman-disable .people-name{
+    color: #c9c9c9;
+}
+.people-woman-disable .people-info{
+    color: #ddd;
+}
+.people-woman-disable .people-img{
+    background-color: #f4edef;
+}
+
+
+
+.people-img img{
+    display: inline-block;
+    padding-top: 20px;
+}
+.people-name{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.people-info{
+    font-size: 18px;
+    padding: 0 20px;
+    line-height: 28px;
+    height: 56px;
+    overflow: hidden;
+    color: #7a858b;
+}
+.people-nav{
+    padding: 20px 0 20px 0;
+    text-align: center;
+}
+.people-nav li{
+    width: 12px;
+    height: 12px;
+    border-radius: 100px;
+    background-color: #e0b8bf;   
+    display: inline-block;
+    margin: 0 15px;
+    text-indent: -10000px
+}
+.people-nav .on{
+    background-color: #9b172f;
+}
+.people-items{
+    width: 1113px;
+    margin: 0 auto;
+}
