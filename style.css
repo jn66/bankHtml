@@ -313,7 +313,7 @@ section.home-section{
       display: inline-block;
   }
 .people-return{
-    padding-top:64px;
+    padding-top:15px;
     padding-left: 78px; 
     margin-bottom: 18px;
 }
@@ -321,7 +321,7 @@ section.home-section{
     display: block;
     padding-left: 60px;
     background: url("./image/last.png") left center no-repeat;
-    padding-top:10px;
+    padding-top:15px;
     padding-bottom:10px;
     font-size: 25px;
     color: #3a3a3a;
@@ -337,10 +337,10 @@ section.home-section{
     border: 1px solid #7a858b;
     border-radius: 5px;
     float: left;
-    padding: 25px 0;
+    padding: 23px 0;
     text-align: center;
     margin-right: 100px;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
     background-color: #eff0f0;
 }
 .people-item:nth-child(4n){
