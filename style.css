@@ -433,6 +433,7 @@ section.home-section{
 .wait-btns{
     margin: 80px auto 0 auto;
     width: 825px;
+    padding-bottom: 20px;
 }
 .wait-btn{
     float: left;
@@ -485,4 +486,71 @@ section.home-section{
 }
 .wait-content-red{
     color: #7b172f;
+}
+.insert-container{
+    padding: 72px 0 100px 0;
+}
+.insert-inputs{
+    width: 1020px;
+    margin: 0 auto;
+}
+.insert-input{
+    float: left;
+    width: 50%;
+}
+.insert-input-block label{
+    display: block;
+    float: left;
+    line-height: 50px;
+    width: 200px;
+    text-align: right;
+    font-size: 24px;
+}
+.insert-input-block select{
+    display: block;
+    float: left;
+    width: 300px;
+    background-color: #e0e0e0;
+    border-radius: 4px;
+    line-height: 50px;
+    padding: 10px;
+    font-size: 30px;
+    border: 0;
+    text-align: center;
+}
+.insert-input-block2{
+    margin-top: 30px;
+}
+.insert-input-block .number{
+    display: block;
+    float: left;
+    width: 300px;
+    background-color: #e0e0e0;
+    border-radius: 4px;
+    line-height: 50px;
+    padding: 0px;
+    font-size: 30px;
+    border: 0;
+    color: #cb082b;
+    text-align: center;
+}
+.insert-btns{
+    margin-top: 300px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+}
+.insert-btn{
+    float: left;
+    display: block;
+    text-decoration: none;
+    color: white;
+    width: 200px;
+    font-size: 24px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 1000px;
+    background-color: #de0129;
+    background-image: linear-gradient(180deg, #de0129 0, #9d162f 100%);
 }
