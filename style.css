@@ -414,17 +414,20 @@ section.home-section{
     padding: 20px 0 20px 0;
     text-align: center;
 }
-.people-nav li{
-    width: 12px;
-    height: 12px;
+.people-nav li,.swiper-pagination-bullet{
+    width: 12px !important;
+    height: 12px !important;
     border-radius: 100px;
     background-color: #e0b8bf;   
     display: inline-block;
     margin: 0 15px;
     text-indent: -10000px
 }
-.people-nav .on{
-    background-color: #9b172f;
+.people-nav .on,.swiper-pagination-bullet-active{
+    background-color: #9b172f !important;
+}
+.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction{
+    bottom: -23px !important;
 }
 .people-items{
     width: 1113px;

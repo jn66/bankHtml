@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>中国银行-厅堂服务系统</title>
     <link rel="stylesheet" href="style.css">
-    <script type="text/javascript" src="./js/TouchSlide.1.1.source.js"></script>
+    <link rel="stylesheet" href="swiper.min.css">
+    
 </head>
 <body class="light">
     <nav class="nav-white">
@@ -22,9 +23,9 @@
                 返回上一级
             </a>
         </div>
-        <div id="pic">
-            <div class="people-body" >
-                <div class="slide">
+        <div id="pic" class="swiper-container">
+            <div class="people-body swiper-wrapper" >
+                <div class="slide swiper-slide">
                     <div class="people-items clearfix">
                         <!-- 所有的class都有people-item默认是男士风格，如果是女士，增加people-woman。
                             如果是男士不可选，增加的class是people-item-disable，如果是女士不可选，增加的是people-woman-disable-->
@@ -119,7 +120,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="slide">
+                <div class="slide swiper-slide">
                     <div class="people-items clearfix">
                         <!-- 所有的class都有people-item默认是男士风格，如果是女士，增加people-woman。
                             如果是男士不可选，增加的class是people-item-disable，如果是女士不可选，增加的是people-woman-disable-->
@@ -216,7 +217,7 @@
                 </div>
 
             </div>
-            <div class="people-nav">
+            <div class="people-nav swiper-pagination">
                 <div class="people-nav-item"></div>
                 <div class="people-nav-item"></div>
                 <div class="people-nav-item select"></div>
@@ -236,14 +237,13 @@
             </div>
         </div>
     </div> -->
+    <script type="text/javascript" src="./js/swiper.min.js"></script>
     <script>
-    TouchSlide({ 
-        slideCell:"#pic",
-        mainCell:".people-body",
-        titCell:".people-nav", //开启自动分页 autoPage:true ，此时设置 titCell 为导航元素包裹层
-        autoPage:true, //自动分页
-        pnLoop:"false", // 前后按钮不循环
-    });
+    var swiper = new Swiper('.swiper-container', {
+        pagination: {
+          el: '.swiper-pagination',
+        },
+      });
     </script>
 </body>
 </html>
